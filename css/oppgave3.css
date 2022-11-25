@@ -1,0 +1,45 @@
+* {
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+body {
+    margin: 0;
+}
+
+#card-outline {
+    padding: 20px;
+    margin: auto;
+    background-color: black;
+    max-width: 1200px;
+    color: white;
+    margin-bottom: 2em;
+    display: flex;
+}
+@media screen and (max-width: 646px) {
+    #card-outline {
+        padding: 20px;
+        margin: auto;
+        background-color: black;
+        max-width: 300px;
+        color: white;
+        margin-bottom: 2em;
+        display: inline-block;
+    }
+}
+
+#image {
+    width: 300px;
+}
+
+#title {
+    font-size: 2.5em;
+}
+
+#sub-heading {
+    font-size: 1.5em;
+}
+
+#paragraph {
+    margin: 30px;
+}

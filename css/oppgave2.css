@@ -1,0 +1,42 @@
+* {
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+body {
+    display: inline-block;
+    margin: 0;
+}
+
+section {
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+  }
+
+.card-outline {
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.image {
+    display: inline-block !important;
+}
+
+.paragraph-text {
+    color: white;
+    font-size: 1em;
+    margin: 0;
+}
+
+.title-text { 
+    color: white;
+    font-size: 2.5rem;
+}
